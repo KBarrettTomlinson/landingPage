@@ -3,7 +3,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
-var index = require('././modules/index.js');
+var index = require('./routes/index.js');
 
 //globals
 var app = express();
@@ -11,7 +11,7 @@ var port = 5000;
 
 //uses
 app.use( bodyParser.urlencoded( {extended: true}));
-app.use( express.static ('server/public/views'));
+app.use( express.static ('./server/public'));
 app.use( '/', index );
 
 //listening
