@@ -9,7 +9,11 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
-h1{
+.container{
+  margin-top: 5px;
+}
+
+h2{
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -28,22 +32,78 @@ p,a{
 #portrait{
   border: 3px solid whitesmoke;
   border-radius: 5px;
+  margin: 5px;
   max-height: 275px;
   max-width: 275px;
 }
 
 .project-square{
   background-color: lightgrey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 3px solid whitesmoke;
   border-radius: 5px;
+  color: black;
   display: inline-block;
-  height: 130px;
-  margin: 10px;
-  padding: 50px 0 50px 0;
-  width: 130px;
+  font-size: 16px;
+  height: 175px;
+  margin: 5px;
+  /*padding: 75px 0 75px 0;*/
+  width: 175px;
 }
 
-.project-square:hover{
-  height:135px;
-  opacity: .5;
-  width: 135px;
+.project-square:hover {
+  height: 180px;
+  opacity: .9;
+  width: 180px;
+}
+
+#murmuration{
+  background-image: url(../styles/images/murmuration.png);
+}
+
+#murmurationHoverContent{
+  background-color: white;
+  display: none;
+  height: 180px;
+  opacity: .9;
+  padding: 5px;
+  width: 180px;
+}
+
+#murmuration:hover #murmurationHoverContent{
+  display: block;
+}
+
+#recovree{
+  background-image: url(../styles/images/recovree.jpg);
+}
+
+#recovreeHoverContent{
+  background-color: white;
+  display: none;
+  height: 180px;
+  opacity: .9;
+  width: 180px;
+}
+
+#recovree:hover #recovreeHoverContent{
+  display: block;
+}
+
+#omdb{
+  background-image: url(../styles/images/omdb.png);
+}
+
+#omdbHoverContent{
+  background-color: white;
+  display: none;
+  height: 180px;
+  opacity: .9;
+  width: 180px;
+}
+
+#omdb:hover #omdbHoverContent{
+  display: block;
 }
