@@ -4,5 +4,46 @@
 }
 
 body{
-    background-color: grey;
+  background-color: white;
+  color: slategray;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  font-family: 'Libre Baskerville', serif;
+}
+
+p,a{
+  font-size: 16px;
+}
+
+.center-parent{
+  margin:0 auto;
+}
+
+.center{
+  text-align: center;
+}
+
+#portrait{
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  max-height: 275px;
+  max-width: 275px;
+}
+
+.project-square{
+  background-color: lightgrey;
+  border-radius: 5px;
+  display: inline-block;
+  height: 130px;
+  margin: 10px;
+  padding: 50px 0 50px 0;
+  width: 130px;
+}
+
+.project-square:hover{
+  height:135px;
+  opacity: .5;
+  width: 135px;
 }
