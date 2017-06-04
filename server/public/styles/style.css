@@ -10,15 +10,16 @@ body{
 }
 
 .container{
+  margin-top: 25px;
+}
+
+h1{
+  font-family: 'Libre Baskerville', serif;
   margin-top: 5px;
 }
 
-h2{
-  font-family: 'Libre Baskerville', serif;
-}
-
 p,a{
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .center-parent{
@@ -29,12 +30,70 @@ p,a{
   text-align: center;
 }
 
-#portrait{
+.project-square{
+  background-color: lightgrey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 3px solid whitesmoke;
   border-radius: 5px;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  height: 150px;
   margin: 5px;
-  max-height: 275px;
-  max-width: 275px;
+  width: 150px;
+}
+
+.hover-content{
+  background-color: white;
+  display: none;
+  height: 150px;
+  opacity: .9;
+  padding: 5px;
+  width: 150px;
+}
+
+.hover-content hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project-square:hover .hover-content{
+  display: block;
+}
+
+#portrait{
+  background-image: url(../styles/images/portraitKeith3.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+#murmuration{
+  background-image: url(../styles/images/murmuration.png);
+}
+
+#recovree{
+  background-image: url(../styles/images/recovree.jpg);
+}
+
+#omdb{
+  background-image: url(../styles/images/omdb.png);
+}
+
+#icons{
+  background-color: white;
+  z-index: 5;
+}
+
+#icons hr{
+  margin-top: 5px;
+}
+
+.icon-div{
+  display: inline-block;
+  margin: 10px;
+  margin-top: 0;
 }
 
 .fa-linkedin-square{
@@ -51,77 +110,4 @@ p,a{
 
 .fa-envelope{
   color: #c71610;
-}
-
-.project-square{
-  background-color: lightgrey;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 3px solid whitesmoke;
-  border-radius: 5px;
-  color: black;
-  display: inline-block;
-  font-size: 16px;
-  height: 175px;
-  margin: 5px;
-  /*padding: 75px 0 75px 0;*/
-  width: 175px;
-}
-
-.project-square:hover {
-  height: 180px;
-  opacity: .9;
-  width: 180px;
-}
-
-#murmuration{
-  background-image: url(../styles/images/murmuration.png);
-}
-
-#murmurationHoverContent{
-  background-color: white;
-  display: none;
-  height: 180px;
-  opacity: .9;
-  padding: 10px;
-  width: 180px;
-}
-
-#murmuration:hover #murmurationHoverContent{
-  display: block;
-}
-
-#recovree{
-  background-image: url(../styles/images/recovree.jpg);
-}
-
-#recovreeHoverContent{
-  background-color: white;
-  display: none;
-  height: 180px;
-  opacity: .9;
-  padding: 10px;
-  width: 180px;
-}
-
-#recovree:hover #recovreeHoverContent{
-  display: block;
-}
-
-#omdb{
-  background-image: url(../styles/images/omdb.png);
-}
-
-#omdbHoverContent{
-  background-color: white;
-  display: none;
-  height: 180px;
-  opacity: .9;
-  padding: 10px;
-  width: 180px;
-}
-
-#omdb:hover #omdbHoverContent{
-  display: block;
 }
