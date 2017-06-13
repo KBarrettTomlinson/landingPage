@@ -14,12 +14,47 @@ body{
 }
 
 h1{
-  font-family: 'Libre Baskerville', serif;
   margin-top: 5px;
 }
 
+ul{
+  list-style: none;
+}
+
+#bioHeader{
+  font-family: 'Libre Baskerville', serif;
+}
+
+#bioBody{
+  font-family: 'Raleway', sans-serif;
+}
+
+#murmurationHeader{
+  font-family: 'Raleway', sans-serif;
+}
+
+#murmurationBody{
+  font-family: 'News Cycle', sans-serif;
+}
+
+#recovreeHeader{
+font-family: 'Lato', sans-serif;
+}
+
+#recovreeBody{
+  font-family: 'Questrial', serif;
+}
+
+#omdbHeader{
+  font-family: 'Libre Baskerville', serif;
+}
+
+#omdbBody{
+  font-family: 'Libre Baskerville', serif;
+}
+
 p,a{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .center-parent{
@@ -45,28 +80,17 @@ p,a{
   width: 150px;
 }
 
-.hover-content{
-  background-color: white;
-  display: none;
-  height: 150px;
+.project-square:hover{
   opacity: .9;
-  padding: 5px;
-  width: 150px;
 }
 
-.hover-content hr{
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.project-square:hover .hover-content{
-  display: block;
+.project-square-large{
+  height: 300px;
+  width: 300px;
 }
 
 #portrait{
-  background-image: url(../styles/images/portraitKeith3.jpg);
-  height: 300px;
-  width: 300px;
+  background-image: url(../styles/images/portraitKeith2.jpg);
 }
 
 #murmuration{
