@@ -46,11 +46,11 @@ font-family: 'Lato', sans-serif;
 }
 
 #omdbHeader{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Open Sans', serif;
 }
 
 #omdbBody{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', serif;
 }
 
 p,a{
@@ -87,6 +87,10 @@ p,a{
 .project-square-large{
   height: 300px;
   width: 300px;
+}
+
+.project-square-selected{
+  border: 3px solid rgb(240, 155, 28);
 }
 
 #portrait{
