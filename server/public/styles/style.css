@@ -4,8 +4,8 @@
 }
 
 body{
-  background-color: white;
-  color: slategray;
+  background-color: whitesmoke;
+  color: slategrey;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -31,39 +31,30 @@ ul{
 }
 
 #bioHeader{
-  font-family: 'Raleway', serif;
 }
 
 #bioBody{
-  font-family: 'Raleway', sans-serif;
 }
 
 #murmurationHeader{
-  font-family: 'Raleway', sans-serif;
 }
 
 #murmurationBody{
-  font-family: 'News Cycle', sans-serif;
 }
 
 #recovreeHeader{
-font-family: 'Lato', sans-serif;
 }
 
 #recovreeBody{
-  font-family: 'Questrial', serif;
 }
 
 #omdbHeader{
-  font-family: 'Open Sans', serif;
 }
 
 #omdbBody{
-  font-family: 'Oswald', serif;
 }
 
 #projectHeader{
-  font-family: 'Raleway', serif;
 }
 
 p,a{
@@ -83,7 +74,7 @@ p,a{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  border: 3px solid whitesmoke;
+  border: 1px solid black;
   border-radius: 5px;
   color: black;
   display: inline-block;
@@ -94,8 +85,10 @@ p,a{
 }
 
 .project-square-large{
-  height: 300px;
-  width: 300px;
+  border: 3px solid white;
+  height: 275px;
+  margin-bottom: 25px;
+  width: 275px;
 }
 
 .project-square-selected{
@@ -107,7 +100,7 @@ p,a{
 }
 
 #projects{
-  background-image: url(../styles/images/projects.png);  
+  background-image: url(../styles/images/projects.png);
 }
 
 #murmuration{
