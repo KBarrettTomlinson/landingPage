@@ -14,6 +14,7 @@ body{
 }
 
 h1{
+  color: slategray;
   font-size: 28px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -66,7 +67,7 @@ font-family: 'Lato', sans-serif;
 }
 
 p,a{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .center-parent{
@@ -93,8 +94,8 @@ p,a{
 }
 
 .project-square-large{
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
 }
 
 .project-square-selected{
@@ -105,16 +106,24 @@ p,a{
   background-image: url(../styles/images/portraitKeith6.jpg);
 }
 
+#projects{
+  background-image: url(../styles/images/projects.png);  
+}
+
 #murmuration{
-  background-image: url(../styles/images/murmuration.png);
+  background-image: url(../styles/images/murmuration2.png);
 }
 
 #recovree{
-  background-image: url(../styles/images/recovree.jpg);
+  background-image: url(../styles/images/recovree2.png);
 }
 
 #omdb{
   background-image: url(../styles/images/omdb.png);
+}
+
+#realty{
+  background-image: url(../styles/images/realty.png);
 }
 
 #icons{
