@@ -14,7 +14,15 @@ body{
 }
 
 h1{
+  font-size: 28px;
   margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2{
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 ul{
@@ -22,7 +30,7 @@ ul{
 }
 
 #bioHeader{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Raleway', serif;
 }
 
 #bioBody{
@@ -53,8 +61,12 @@ font-family: 'Lato', sans-serif;
   font-family: 'Oswald', serif;
 }
 
+#projectHeader{
+  font-family: 'Raleway', serif;
+}
+
 p,a{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .center-parent{
@@ -80,13 +92,9 @@ p,a{
   width: 150px;
 }
 
-.project-square:hover{
-  opacity: .9;
-}
-
 .project-square-large{
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 }
 
 .project-square-selected{
@@ -94,7 +102,7 @@ p,a{
 }
 
 #portrait{
-  background-image: url(../styles/images/portraitKeith5.jpg);
+  background-image: url(../styles/images/portraitKeith6.jpg);
 }
 
 #murmuration{
