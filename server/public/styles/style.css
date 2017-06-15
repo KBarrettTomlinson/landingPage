@@ -43,7 +43,6 @@ p,a{
 }
 
 .project-square{
-  background-color: lightgrey;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,13 +64,6 @@ p,a{
 
 .project-square-gif{
   border: none;
-  height: 323px;
-  /*margin-bottom: 25px;*/
-  width: 600px;
-}
-
-.project-square-selected{
-  border: 3px solid rgb(240, 155, 28);
 }
 
 #portrait{
@@ -88,18 +80,38 @@ p,a{
 
 #murmurationGif{
   background-image: url(../styles/images/murmurationMovie.gif);
+  height: 323px;
+  width: 600px;
 }
 
 #recovree{
   background-image: url(../styles/images/recovree2.png);
 }
 
+#recovreeGif{
+  background-image: url(../styles/images/recovreeMovie.gif);
+  height: 418px;
+  width: 725px;
+}
+
 #omdb{
   background-image: url(../styles/images/omdb.png);
 }
 
+#omdbGif{
+  background-image: url(../styles/images/omdbMovie.gif);
+  height: 303px;
+  width: 600px;
+}
+
 #realty{
   background-image: url(../styles/images/realty.png);
+}
+
+#realtyGif{
+  background-image: url(../styles/images/realtyMovie.gif);
+  height: 312px;
+  width: 600px;
 }
 
 #icons{
