@@ -30,35 +30,8 @@ ul{
   list-style: none;
 }
 
-#bioHeader{
-}
-
-#bioBody{
-}
-
-#murmurationHeader{
-}
-
-#murmurationBody{
-}
-
-#recovreeHeader{
-}
-
-#recovreeBody{
-}
-
-#omdbHeader{
-}
-
-#omdbBody{
-}
-
-#projectHeader{
-}
-
 p,a{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .center-parent{
@@ -74,11 +47,10 @@ p,a{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid black;
+  border: 1px solid slategray;
   border-radius: 5px;
   color: black;
   display: inline-block;
-  font-size: 16px;
   height: 150px;
   margin: 5px;
   width: 150px;
@@ -92,10 +64,10 @@ p,a{
 }
 
 .project-square-gif{
-  border: 3px solid white;
-  height: 410px;
+  border: none;
+  height: 323px;
   /*margin-bottom: 25px;*/
-  width: 656px;
+  width: 600px;
 }
 
 .project-square-selected{
