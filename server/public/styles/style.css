@@ -91,6 +91,13 @@ p,a{
   width: 275px;
 }
 
+.project-square-gif{
+  border: 3px solid white;
+  height: 410px;
+  /*margin-bottom: 25px;*/
+  width: 656px;
+}
+
 .project-square-selected{
   border: 3px solid rgb(240, 155, 28);
 }
@@ -105,6 +112,10 @@ p,a{
 
 #murmuration{
   background-image: url(../styles/images/murmuration2.png);
+}
+
+#murmurationGif{
+  background-image: url(../styles/images/murmurationMovie.gif);
 }
 
 #recovree{
